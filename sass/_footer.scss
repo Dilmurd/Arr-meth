@@ -1,0 +1,14 @@
+#footer{
+    background-color: pink;
+    margin-top: 50px;
+    padding: 50px;
+    .footer__wrapper{
+        display: flex;
+        justify-content: space-between;
+        .footer__logo{
+            img{
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

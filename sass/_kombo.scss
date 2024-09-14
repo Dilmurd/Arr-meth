@@ -1,0 +1,33 @@
+#kombo{
+    margin-top: 30px;
+    .kombo__p{
+        p{
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+    }
+    .kombo__wrapper{
+        display: grid;
+        grid-template-columns: repeat(4 ,1fr);
+        grid-gap: 20px;
+        .kombo__card{
+            background-color: #fff;
+            border-radius: 20px;
+            padding: 10px 20px;
+            img{
+                width: 100%;
+            }
+            .kombo__title{
+                font-size: 20px;
+                font-weight: 600;
+                margin-bottom: 10px;
+            }
+            .kombo__subtitle{
+                margin-bottom: 10px;
+            }
+            strong{
+                font-size: 20px;
+            }
+        }
+    }
+}
